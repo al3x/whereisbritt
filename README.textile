@@ -4,5 +4,4 @@ Reports the location of Britt Selvitelle.
 
 h2. Requirements
 
-* Ruby 1.8.5+
-* Ruby Gems: sinatra
+* Credulity.
