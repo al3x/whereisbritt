@@ -20,7 +20,7 @@
        margin: auto;
       }
     </style>
-    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAXM3KHrJWvutJ8BC8pvRJvhSW53cNoekqdKd9ggD0Dk9Ucv4kQhQS_6mLAfPQ579sj7B-NBLR9_H-Sw" type="text/javascript"></script>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAXM3KHrJWvutJ8BC8pvRJvhR8sR2BsA3sGTwU7ICLgBkSeEe7ERTqjdTAWTuJu3Ie9DmhIcvr0MXVuw" type="text/javascript"></script>
     <script type="text/javascript">
       //<![CDATA[
       function load() {
@@ -45,7 +45,7 @@
           var marker = new GMarker(point, { title: "Britt", icon: brittIcon });
           
           GEvent.addListener(marker, "click", function() {
-            marker.openInfoWindowHtml('<span class="info_text">Britt</span>');
+            marker.openInfoWindowHtml('<span class="info_text"><a href="http://www.flickr.com/photos/bs/2245640803/sizes/l/">Britt</a></span>');
           });
           
           map.addOverlay(marker);
